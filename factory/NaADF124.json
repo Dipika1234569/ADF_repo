@@ -1,0 +1,9 @@
+{
+	"name": "NaADF124",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d69a5dc8-e4dd-4597-950a-c5c64a8fbab2",
+		"tenantId": "ddaefc43-6062-456e-b110-98a82695e5c3"
+	}
+}
