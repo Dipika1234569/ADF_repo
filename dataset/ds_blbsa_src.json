@@ -1,0 +1,23 @@
+{
+	"name": "ds_blbsa_src",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Gen2SA_Des",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Sales_File_2020_USA_UK_IND.csv",
+				"container": "srccon1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

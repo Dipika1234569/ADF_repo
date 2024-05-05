@@ -1,0 +1,22 @@
+{
+	"name": "ds_adlsa_des",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_BlbSA_Src",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "degen1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
