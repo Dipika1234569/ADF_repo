@@ -5,8 +5,17 @@
 		"factoryName": {
 			"value": "NaADF124"
 		},
+		"LS_BlbSA_Src_accountKey": {
+			"value": ""
+		},
+		"LS_Gen2SA_Des_connectionString": {
+			"value": ""
+		},
 		"github_connectionString": {
 			"value": ""
+		},
+		"LS_BlbSA_Src_properties_typeProperties_url": {
+			"value": "https://degen.dfs.core.windows.net/"
 		}
 	}
 }
